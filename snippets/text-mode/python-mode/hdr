@@ -1,0 +1,10 @@
+#contributor : Ray Mroz
+#name : Python file template .... :
+# --
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+__author__ = "Ray Mroz (Ray.Mroz@Pason.com)"
+__date__   = "`(current-time-string)`"
+
+

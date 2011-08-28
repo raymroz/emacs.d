@@ -1,0 +1,16 @@
+# ignore objects and archives, anywhere in the tree.
+#
+
+## OS X specific
+*.DS_Store
+
+## Emacs related
+*~
+\#*
+.\#*
+
+## Vim
+*.swp
+
+## Byte compiled python code
+*.pyc

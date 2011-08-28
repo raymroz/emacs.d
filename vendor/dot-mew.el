@@ -1,0 +1,35 @@
+(setq mew-name "Ray Mroz") ;; (user-full-name)
+(setq mew-mail-domain "gmail.com")
+
+
+(setq mew-pop-size 0)
+;;(setq mew-imap-prefix-list '("#mh/" "#mhinbox"))
+;;(setq mew-auto-get t)
+(setq toolbar-mail-reader 'Mew)
+(setq mew-use-cached-passwd t)
+(setq mew-passwd-timer-unit 999)
+(setq mew-passwd-lifetime 999)
+(set-default 'mew-decode-quoted 't)  
+(setq mew-prog-pgp "gpg")
+(setq mew-config-alist 
+;;Gmail
+      '(("default"
+         ("name"	. "Ray Mroz")
+         ("mail-domain" . "gmail.com")
+         ("proto" . "%")
+         ("imap-server"	. "localhost")
+         
+         ("imap-user"	. "raymondmroz")
+         ("imap-size"	. 0)
+         ("smtp-ssl"	. t)
+         ("smtp-ssl-port". "587")
+         ("smtp-auth-list" . ("PLAIN" "LOGIN" "CRAM-MD5"))
+         ("smtp-user"	. "raymondmroz")
+         ("smtp-server"	. "smtp.gmail.com")
+         ("imap-delete" . t)
+         ("imap-queue-folder" . "%queue") 
+         ("imap-trash-folder" . "[Gmail]/Trash")
+         )
+        ))
+(setq mew-ssl-verify-level 0)
+(setq mew-prog-ssl "/usr/bin/stunnel")

@@ -1,0 +1,34 @@
+This is my developing Emacs environment.  It soon will encompass the sum collection of
+everything I have for C/C++, Perl and Python development using my favorite editor.
+
+The Python side of things is driven by the python-mode.el configuration from the Python
+people themselves.  I prefer it to the stock python.el mode which ships with Emacs. It
+has been mostly until this point, shamelessly 'borrowed' from Ryan McGuire over at
+EnigmaCurry.com as I have recently moved into a new gig as a Python developer and I
+looked around to find something quick rather than develop my own from scratch. I suspect
+that this will evolve as I put my own stamp on everything but in any event, thanks
+Ryan, nice work.
+
+My Perl environment is based upon the fantastic PDE (Perl Development Environment)
+package which is available at http://www.emacswiki.org/emacs/PerlDevelopEnvironment. 
+This side of my environment has been shaping up now for over a year and is the result
+of about 16 months of Perl development over in Morgan Stanley's massive UNIX plant.
+Some of this is very Morgan specific and I plan to remove and massage that aspect of
+it.
+
+Finally, the C and C++ material is an accumulation of material which I have put together
+over the years.
+
+For project level management, I use the CEDET suite of tools from 
+http://cedet.sourceforge.net/.  CEDET provides a great collection of packages which
+together turn Emacs into an IDE which can stand alongside any of the traditional
+industrial offerings such as Eclipse or Visual Studio.
+
+Finally I have added in my favorite programming font, a fixed-width TrueType font
+called Envy Code R (Preview 7).  This is just about the best programming font I have
+ever used and best of all, its free.  The font files can be found in the fonts
+directory in the vendor directory. Feel free to add them to your particular operating
+environment according to the relevant procedure for doing so. I will include a short
+HOWTO on adding them on a modern Linux system running X as well as details for setting
+the font as your default font in Emacs.  Keep in mind that only Emacs version 23.x or
+better can render an antialiased font.
