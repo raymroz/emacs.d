@@ -16,7 +16,7 @@ of about 16 months of Perl development over in Morgan Stanley's massive UNIX pla
 Some of this is very Morgan specific and I plan to remove and massage that aspect of
 it.
 
-Finally, the C and C++ material is an accumulation of material which I have put together
+The C and C++ material is an accumulation of material which I have put together
 over the years.
 
 For project level management, I use the CEDET suite of tools from 
